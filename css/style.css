@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "iCielBC";
+  src: url("../fonts/iCielBCAlberto-Regular.woff2") format("woff2"), url("../fonts/iCielBCAlberto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Black.woff2") format("woff2"), url("../fonts/Archivo-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-BlackItalic.woff2") format("woff2"), url("../fonts/Archivo-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Bold.woff2") format("woff2"), url("../fonts/Archivo-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Archivo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-ExtraBold.woff2") format("woff2"), url("../fonts/Archivo-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-BoldItalic.woff2") format("woff2"), url("../fonts/Archivo-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Archivo-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-ExtraLight.woff2") format("woff2"), url("../fonts/Archivo-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Medium.woff2") format("woff2"), url("../fonts/Archivo-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Italic.woff2") format("woff2"), url("../fonts/Archivo-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Light.woff2") format("woff2"), url("../fonts/Archivo-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-LightItalic.woff2") format("woff2"), url("../fonts/Archivo-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-MediumItalic.woff2") format("woff2"), url("../fonts/Archivo-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Thin.woff2") format("woff2"), url("../fonts/Archivo-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Regular.woff2") format("woff2"), url("../fonts/Archivo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Archivo-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-ThinItalic.woff2") format("woff2"), url("../fonts/Archivo-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-SemiBold.woff2") format("woff2"), url("../fonts/Archivo-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/*======================================== config =================================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #2e3750;
+  transition: 0.3s all !important;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+input {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+html.open_menu {
+  overflow: hidden;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Archivo";
+  background: #fff;
+  color: #000000;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none !important;
+}
+
+/*======================================== end config =================================*/
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.box-banner {
+  position: relative;
+}
+.box-banner .service-bn {
+  position: absolute;
+  padding: 64px 0;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.list-service {
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  padding: 20px 0;
+  text-align: center;
+  color: #8A8A8A;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+}
+.list-service h3 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #1B5F4A;
+}
+.list-service ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 -15px;
+}
+.list-service ul li {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 15px;
+  border-right: 0.25px solid #000000;
+}
+.list-service ul li:last-child {
+  border-right: 0;
+}
+
+.icon-srv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-srv .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.icon-srv p {
+  position: relative;
+  top: 2px;
+}
+
+.box-banner-cate {
+  padding: 40px 0;
+}
+
+.slide-banner-cate {
+  margin: 0 -5px;
+}
+.slide-banner-cate .item-slide {
+  padding: 0 5px;
+}
+
+.title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.title h2 {
+  font-size: 64px;
+  font-weight: 300;
+  color: #fff;
+}
+.title h2 span {
+  font-weight: 800;
+}
+
+.content-product {
+  background: linear-gradient(180deg, #70C452 0%, #1B5F4A 100%);
+  border-radius: 15px;
+  padding: 40px 25px;
+}
+
+.slide-product {
+  margin: 0 -12px;
+}
+.slide-product .item-slide {
+  padding: 0 12px;
+}
+
+.item-product {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.item-product .info {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
